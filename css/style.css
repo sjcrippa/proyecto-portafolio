@@ -22,6 +22,7 @@ body {
 }
 .titulo {
     color: beige;
+    box-shadow:#0f0c29;
 }
 .hDos {
     font-size: 3rem;
@@ -30,5 +31,19 @@ body {
     font-size: 3rem;
 }
 .cajaPresentacion {
+    color: beige;
+}
+.botonIndex {
+    margin: auto;
+    border: 2px black solid;
+    border-radius: 180px;
+}
+.dashed {
+    color: beige;
+    border: 2px dashed;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#footer {
     color: beige;
 }
