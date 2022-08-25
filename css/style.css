@@ -3,47 +3,78 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 /* ESTILO AL INDEX */
+
 body {
-    background: #0f0c29;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */   
+    background: #0f0c29;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #24243e, #302b63, #0f0c29);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #24243e, #302b63, #0f0c29);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
 .navegador {
     background-color: beige;
 }
+
 .listas {
     font-size: 1rem;
     font-weight: bolder;
     color: red;
 }
+
 .hUno {
-    color:#302b63;
+    color: #302b63;
 }
+
 .titulo {
     color: beige;
-    box-shadow:#0f0c29;
+    box-shadow: #0f0c29;
 }
+
 .hDos {
     font-size: 3rem;
 }
+
 .cajaTitulo {
     font-size: 3rem;
 }
+
+.cajaPerfil {
+    border: 2px #0f0c29 solid;
+}
+
 .cajaPresentacion {
     color: beige;
 }
+
 .botonIndex {
     margin: auto;
     border: 2px black solid;
     border-radius: 180px;
 }
+
+.botonCv {
+    font-weight: bolder;
+    color: #0f0c29;
+    background-color: beige;
+    border: 2px #0f0c29 solid;
+}
+
+.botonCv:hover {
+    background-color: #302b63;
+    border: 2px #0f0c29 solid;
+}
+
 .dashed {
     color: beige;
     border: 2px dashed;
     margin-left: 10%;
     margin-right: 10%;
 }
+
 #footer {
     color: beige;
 }
