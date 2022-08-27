@@ -69,6 +69,8 @@ body {
     color: #0f0c29;
     background-color: beige;
     border: 2px #0f0c29 solid;
+    width: 140px;
+    height: 60px;
 }
 
 .botonCv:hover {
