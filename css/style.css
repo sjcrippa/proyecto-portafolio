@@ -104,3 +104,12 @@ body {
 .cajaCv:hover {
     border: 4px #0f0c29 solid;
 }
+
+/* ESTILO "TRABAJOS" */
+
+.cajaTrabajos {
+    margin-left: 5%;
+    margin-top: 15%;
+    text-align: center;
+    color: beige;
+}
