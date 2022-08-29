@@ -88,3 +88,19 @@ body {
 #footer {
     color: beige;
 }
+
+/* ESTILO "QUE-HAGO" */
+
+.estiloCarou {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.cajaCv {
+    border: 4px beige solid;
+    border-radius: 16px;
+}
+
+.cajaCv:hover {
+    border: 4px #0f0c29 solid;
+}
