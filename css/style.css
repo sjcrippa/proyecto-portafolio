@@ -50,10 +50,6 @@ body {
     font-size: 3rem;
 }
 
-.cajaPerfil {
-    border: 2px #0f0c29 solid;
-}
-
 .cajaPresentacion {
     color: beige;
 }
@@ -89,6 +85,16 @@ body {
     color: beige;
 }
 
+/* ESTILO "SOBRE-MI" */
+
+.cajaPerfil {
+    border: 2px #0f0c29 solid;
+}
+
+.cajaPerfil:hover {
+    border: #0f0c29;
+}
+
 /* ESTILO "QUE-HAGO" */
 
 .estiloCarou {
@@ -112,4 +118,26 @@ body {
     margin-top: 15%;
     text-align: center;
     color: beige;
+}
+
+/* ESTILO CONTACTO */
+
+.boxContac {
+    background-color: beige;
+    border: 2px #302b63 solid;
+    border-radius: 26px;
+}
+
+.boxContac:hover {
+    border: 2px #0f0c29 solid;
+}
+
+.boton {
+    background-color: #302b63;
+    border: #0f0c29;
+}
+
+.boton:hover {
+    border: #24243e;
+    background-color: #0f0c29;
 }
