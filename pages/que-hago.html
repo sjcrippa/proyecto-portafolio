@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="../css/style.css">
     <!-- FAVICON -->
     <link rel="icon" type="image/x-icon" href="../imgs/logos/logo-dos.png">
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -63,22 +65,17 @@
             </div>
         </div>
         <!-- Fin titulo -->
-        <section>
-            <div class="mt-5">
-                <div class="col col-sm-offset-1">
-                    <hr class="dashed">
+
+        <section class="container text-center ">
+            <div class="row mt-5 titulo">
+                <div class="col-md-12">
+                    <h3>Herramientas</h3>
                 </div>
             </div>
         </section>
 
-        <div class="row text-center mt-5 titulo">
-            <div class="col">
-                <h3>Herramientas a utilizar:</h3>
-            </div>
-        </div>
-
         <!-- Carousel -->
-        <div id="carouselExampleCaptions" class="carousel slide estiloCarou mt-5" data-bs-ride="false">
+        <div id="carouselExampleCaptions" class="carousel slide estiloCarou mt-5" data-bs-ride="false" data-aos="fade-right">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
                     aria-current="true" aria-label="Slide 1"></button>
@@ -89,26 +86,30 @@
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="../imgs/icons/carou-test-1.png" class="d-block w-100" alt="...">
+                    <img src="../imgs/icons/carou-test-1.png" class="d-block w-100" alt="html5 css3 JS">
                     <div class="mt-5">
                         <div class="carousel-caption d-none d-md-block">
-                            <h5>First slide label</h5>
-                            <p>Some representative placeholder content for the first slide.</p>
+                            <h5>HTML5 - CSS3 - JAVASCRIPT</h5>
+                            <p>Las bases escenciales e imprescindibles en cualquier proyecto a diseñar.</p>
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="../imgs/icons/responsive-coding.png" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Second slide label</h5>
-                        <p>Some representative placeholder content for the second slide.</p>
+                    <img src="../imgs/icons/responsive-coding.png" class="d-block w-100" alt="responsive-coding">
+                    <div class="mt-3">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Codigo Responsive</h5>
+                            <p>Aquellas herramientas que nos permitiran mantener los estilos y las formas en cualquier tipo de pantalla.</p>
+                        </div>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="../imgs/icons/bootstrap-logo.png" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Third slide label</h5>
-                        <p>Some representative placeholder content for the third slide.</p>
+                    <img src="../imgs/icons/bootstrap-logo-dos.png" class="d-block w-100" alt="bootstrap">
+                    <div class="mt-5">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Bootstrap 5</h5>
+                            <p>Libreria con la cual escribiremos codigo más facil, más rapido y más responsive.</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -127,42 +128,28 @@
 
     </main>
 
-    <section>
-        <div class="mt-5">
-            <div class="col col-sm-offset-1">
-                <hr class="dashed">
-            </div>
-        </div>
+    <section class="container">
         <div class="row text-center mt-5">
-            <div class="col">
-                <h3 class="titulo">Experiencia personal:</h3>
-                <img src="../imgs/screen-cv.png" class="mt-3 img-fluid cajaCv" alt="">
-            </div>
+        <div class="col" data-aos="flip-right">
+            <h3 class="titulo text-center">Experiencia personal:</h3>
+            <img src="../imgs/screen-cv.png" class="mt-3 img-fluid cajaCv" alt="">
         </div>
-        <div class="mt-5">
-            <div class="col col-sm-offset-1">
-                <hr class="dashed">
-            </div>
-        </div>
+    </div>
     </section>
 
     <!-- FOOTER -->
 
-    <footer id="footer">
-        <div class="container text-center">
-            <div class="row">
-                <div class="col">
-                    <p>
-                    <h2>&ndash; Gracias por tu visita! &ndash;</h2>
-                    </p>
-                </div>
+    <footer id="footer" class="container mt-5">
+        <div class="row text-center">
+            <div class="col">
+                <h2>-Gracias por tu visita!-</h2>
             </div>
         </div>
         <div class="col-xs-12 text-center">
             <small class="gray">Copyright &copy;
                 <script type="text/javascript">
                     document.write(new Date().getFullYear());
-                </script> Crippa Santiago J. &mdash; Todos los derechos reservados &mdash; </span>
+                </script> Crippa Santiago J. -Todos los derechos reservados-</span>
             </small>
         </div>
     </footer>
@@ -171,6 +158,13 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
         </script>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+
 
 
 </body>
