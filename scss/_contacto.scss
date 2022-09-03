@@ -1,0 +1,33 @@
+/* ESTILO CONTACTO */
+
+.boxContac {
+    background-color: $color-uno;
+    border: 2px $color-cuatro solid;
+    border-radius: 26px;
+
+    &:hover {
+        border: 2px $color-dos solid;
+    }
+}
+
+.boton {
+    background-color: $color-cuatro;
+    border: $color-dos;
+
+    &:hover {
+        border: $color-tres;
+        background-color: $color-dos;
+    }
+}
+
+.botonCont {
+    color: $color-uno;
+    background-color: $color-cinco;
+    border: 2px $color-dos solid;
+    border-radius: 30px;
+    font-weight: bold;
+
+    &:hover {
+        border: $color-dos;
+    }
+}

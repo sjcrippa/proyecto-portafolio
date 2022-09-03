@@ -1,0 +1,14 @@
+/* ESTILO "SOBRE-MI" */
+
+.cajaPerfil {
+    border: 2px $color-dos solid;
+    border-radius: 16px;
+
+    &:hover {
+        border: $color-dos;
+    }
+}
+
+.sobreMi {
+    margin-top: 10%;
+}

@@ -1,0 +1,15 @@
+/* ESTILO "QUE-HAGO" */
+
+.estiloCarou {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.cajaCv {
+    border: 4px $color-uno solid;
+    border-radius: 16px;
+
+    &:hover {
+        border: 4px $color-dos solid;
+    }
+}

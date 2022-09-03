@@ -1,9 +1,10 @@
+/* COLORES */
+/* FUENTES */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
 
-/* ESTILO AL INDEX */
 body {
   background: #0f0c29;
   /* fallback for old browsers */
@@ -12,6 +13,7 @@ body {
   background: linear-gradient(to bottom, #24243e, #302b63, #0f0c29);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
 
+/* ESTILO AL INDEX */
 a {
   text-decoration: none; }
 
@@ -43,7 +45,7 @@ a {
 .botonIndex {
   margin: auto;
   border: 2px black solid;
-  border-radius: 180px; }
+  border-radius: 12px; }
 
 .botonCv {
   font-weight: bolder;
@@ -53,14 +55,9 @@ a {
   width: 140px;
   height: 60px; }
   .botonCv:hover {
+    color: beige;
     background-color: #302b63;
     border: 2px #0f0c29 solid; }
-
-.dashed {
-  color: beige;
-  border: 2px dashed;
-  margin-left: 10%;
-  margin-right: 10%; }
 
 #footer {
   color: beige; }
@@ -71,6 +68,9 @@ a {
   border-radius: 16px; }
   .cajaPerfil:hover {
     border: #0f0c29; }
+
+.sobreMi {
+  margin-top: 10%; }
 
 /* ESTILO "QUE-HAGO" */
 .estiloCarou {

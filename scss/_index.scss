@@ -1,0 +1,65 @@
+/* ESTILO AL INDEX */
+
+a {
+    text-decoration: none;
+}
+
+.navegador {
+    background-color: $color-uno;
+}
+
+.listas {
+    font-size: $font-uno;
+    font-weight: bolder;
+
+    &:hover {
+        color: $color-tres;
+    }
+}
+
+.hUno {
+    color: $color-cuatro;
+
+    &:hover {
+        color: $color-tres;
+    }
+}
+
+.titulo {
+    color: $color-uno;
+    box-shadow: $color-dos;
+}
+
+.hDos,
+.cajaTitulo {
+    font-size: $font-dos;
+}
+
+.cajaPresentacion {
+    color: $color-uno;
+}
+
+.botonIndex {
+    margin: auto;
+    border: 2px $color-seis solid;
+    border-radius: 12px;
+}
+
+.botonCv {
+    font-weight: bolder;
+    color: $color-dos;
+    background-color: $color-uno;
+    border: 2px $color-dos solid;
+    width: 140px;
+    height: 60px;
+
+    &:hover {
+        color: $color-uno;
+        background-color: $color-cuatro;
+        border: 2px $color-dos solid;
+    }
+}
+
+#footer {
+    color: $color-uno;
+}
