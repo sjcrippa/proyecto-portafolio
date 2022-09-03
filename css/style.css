@@ -1,143 +1,115 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
 
 /* ESTILO AL INDEX */
-
 body {
-    background: #0f0c29;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, #24243e, #302b63, #0f0c29);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #24243e, #302b63, #0f0c29);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
+  background: #0f0c29;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #24243e, #302b63, #0f0c29);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #24243e, #302b63, #0f0c29);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
+
+a {
+  text-decoration: none; }
 
 .navegador {
-    background-color: beige;
-}
+  background-color: beige; }
 
 .listas {
-    font-size: 1rem;
-    font-weight: bolder;
-    color: red;
-}
-
-.listas:hover {
-    color: #24243e;
-}
+  font-size: 1rem;
+  font-weight: bolder; }
+  .listas:hover {
+    color: #24243e; }
 
 .hUno {
-    color: #302b63;
-}
-
-.hUno:hover {
-    color:#24243e;
-}
+  color: #302b63; }
+  .hUno:hover {
+    color: #24243e; }
 
 .titulo {
-    color: beige;
-    box-shadow: #0f0c29;
-}
+  color: beige;
+  box-shadow: #0f0c29; }
 
-.hDos {
-    font-size: 3rem;
-}
-
+.hDos,
 .cajaTitulo {
-    font-size: 3rem;
-}
+  font-size: 3rem; }
 
 .cajaPresentacion {
-    color: beige;
-}
+  color: beige; }
 
 .botonIndex {
-    margin: auto;
-    border: 2px black solid;
-    border-radius: 180px;
-}
+  margin: auto;
+  border: 2px black solid;
+  border-radius: 180px; }
 
 .botonCv {
-    font-weight: bolder;
-    color: #0f0c29;
-    background-color: beige;
-    border: 2px #0f0c29 solid;
-    width: 140px;
-    height: 60px;
-}
-
-.botonCv:hover {
+  font-weight: bolder;
+  color: #0f0c29;
+  background-color: beige;
+  border: 2px #0f0c29 solid;
+  width: 140px;
+  height: 60px; }
+  .botonCv:hover {
     background-color: #302b63;
-    border: 2px #0f0c29 solid;
-}
+    border: 2px #0f0c29 solid; }
 
 .dashed {
-    color: beige;
-    border: 2px dashed;
-    margin-left: 10%;
-    margin-right: 10%;
-}
+  color: beige;
+  border: 2px dashed;
+  margin-left: 10%;
+  margin-right: 10%; }
 
 #footer {
-    color: beige;
-}
+  color: beige; }
 
 /* ESTILO "SOBRE-MI" */
-
 .cajaPerfil {
-    border: 2px #0f0c29 solid;
-}
-
-.cajaPerfil:hover {
-    border: #0f0c29;
-}
+  border: 2px #0f0c29 solid;
+  border-radius: 16px; }
+  .cajaPerfil:hover {
+    border: #0f0c29; }
 
 /* ESTILO "QUE-HAGO" */
-
 .estiloCarou {
-    margin-left: 10%;
-    margin-right: 10%;
-}
+  margin-left: 10%;
+  margin-right: 10%; }
 
 .cajaCv {
-    border: 4px beige solid;
-    border-radius: 16px;
-}
-
-.cajaCv:hover {
-    border: 4px #0f0c29 solid;
-}
+  border: 4px beige solid;
+  border-radius: 16px; }
+  .cajaCv:hover {
+    border: 4px #0f0c29 solid; }
 
 /* ESTILO "TRABAJOS" */
-
 .cajaTrabajos {
-    margin-left: 5%;
-    margin-top: 15%;
-    text-align: center;
-    color: beige;
-}
+  margin-left: 5%;
+  margin-top: 15%;
+  text-align: center;
+  color: beige; }
 
 /* ESTILO CONTACTO */
-
 .boxContac {
-    background-color: beige;
-    border: 2px #302b63 solid;
-    border-radius: 26px;
-}
-
-.boxContac:hover {
-    border: 2px #0f0c29 solid;
-}
+  background-color: beige;
+  border: 2px #302b63 solid;
+  border-radius: 26px; }
+  .boxContac:hover {
+    border: 2px #0f0c29 solid; }
 
 .boton {
-    background-color: #302b63;
-    border: #0f0c29;
-}
-
-.boton:hover {
+  background-color: #302b63;
+  border: #0f0c29; }
+  .boton:hover {
     border: #24243e;
-    background-color: #0f0c29;
-}
+    background-color: #0f0c29; }
+
+.botonCont {
+  color: beige;
+  background-color: #46407e;
+  border: 2px #0f0c29 solid;
+  border-radius: 30px;
+  font-weight: bold; }
+  .botonCont:hover {
+    border: #0f0c29; }
